@@ -1,0 +1,171 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0;
+    width: 10rem;
+    height: 13rem;
+    background: var(--color-white);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.dropdown__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.dropdown__item {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.wrapper-down {
+    display: flex;
+    gap: 3rem;
+}
+
+.dropdowns-wrapper {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 42rem;
+    height: 32rem;
+    align-content: space-between;
+    border: 1px dashed var(--color-wrapper-border);
+    border-radius: 5px;
+}
+
+
+.dropdown__button_select {
+    width: 8rem;
+    height: 1.5rem;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    height: 1.5rem;
+}
+
+.active .dropdown__icon {
+    fill: var(--color-white);
+}
+
+.active .dropdown__button-text {
+    color: var(--color-white);
+}
+
+.dropdown__button:hover .dropdown__icon {
+    fill: var(--color-white);
+}
+
+
+.dropdown__button:hover .dropdown__button-text {
+    color: var(--color-white);
+}
+
+.dropdown__button-text {
+    color: var(--color-blue);
+}
+
+.dropdown__content > dropdown__button_select:hover > dropdown__icon {
+    background-color: var(--color-white);
+}
+
+.dropdown__label {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dropdown__button_select:hover {
+    background-color: var(--color-light-blue);
+}
+
+.dropdown__item > .checkbox > .dropdown__label > .checkbox__area:checked ~ .checkbox__text{
+    color: var(--color-blue);
+}
+
+.dropdown__item > .checkbox > .dropdown__label > .checkbox__area:checked  ~  .checkbox__text{
+    color: var(--color-blue);
+}
+
+.dropdown__item > .checkbox > .dropdown__label_hidden > .checkbox__area:checked  ~  .checkbox__icon{
+    opacity: 0;
+}
+
+.checkbox__area_hidden {
+    display: none;
+}
+
+.dropdown_select-theme {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 7rem;
+}
+
+.dropdown__icon {
+    width: 1rem;
+    max-height: 1rem;
+    fill: var(--color-blue);
+}
+
+.dropdown__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 8rem;
+    height: 5rem;
+    padding: 0;
+    gap: 0.5rem;
+}
+
+
+.dropdown_number {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 10rem;
+    height: 5.5rem;
+}
+
+.dropdown__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    gap: 0.25rem;
+    width: 8rem;
+    height: 2rem;
+    box-sizing: border-box;
+    background: var(--color-white);
+    border: 0.0625rem solid var(--color-blue);
+    border-radius: 4px;
+}
+
+.dropdown__input::placeholder {
+    color: var(--color-light-blue);
+}
+
+.dropdown__text {
+    white-space: nowrap;
+}
+
+.dropdown_hidden {
+    display: none;
+}

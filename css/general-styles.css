@@ -1,0 +1,17 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-blue: #459DF5;
+    --color-black: #000000;
+    --color-red: #F53152;
+    --color-light-blue: #BAD8F5;
+    --color-wrapper-border: #8055FF;
+}
+
+body {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: var(--color-black);
+}

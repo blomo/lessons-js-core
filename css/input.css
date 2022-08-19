@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    gap: 5rem;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.main__item {
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+}

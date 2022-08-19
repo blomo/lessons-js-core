@@ -1,0 +1,106 @@
+:root {
+    --input-width: 16rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 22rem;
+    height: 22.5rem;
+    border: 0.0625rem dashed var(--color-wrapper-border);
+    border-radius: 0.3125rem;
+    box-sizing: border-box;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: var(--input-width);
+    height: 3.5rem;
+}
+
+.input__label {
+    width: var(--input-width);
+    height: 1rem;
+}
+
+.input__area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    width: var(--input-width);
+    height: 2rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    box-sizing: border-box;
+    border: 0.0625rem solid var(--color-light-blue);
+    border-radius: 0.25rem;
+    background: var(--color-white);
+}
+
+.input__text {
+    width: 15.25rem;
+    height: 1rem;
+    border: none;
+}
+
+.input__button {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    opacity: 0;
+}
+
+.input__button_hidden {
+    display: none;
+}
+
+.input__icon-x {
+    width: 1rem;
+    height: 1rem;
+    fill: var(--color-light-blue);
+    stroke: var(--color-light-blue);
+}
+
+.input__icon-x-disabled {
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    fill: var(--color-black);
+    stroke: var(--color-black);
+}
+
+.input__text:not(:placeholder-shown) {
+    width: 13.5rem;
+}
+
+.input__text::placeholder {
+    color: var(--color-light-blue);
+}
+
+.input__text:not(:placeholder-shown) + .input__button {
+    position: relative;
+    display: flex;
+    opacity: 1;
+}
+
+.input__area_incorrect {
+    border: 0.0625rem solid var(--color-red);
+}
+
+.input__area_disabled {
+    background-color: var(--color-light-blue);
+    border-color: var(--color-light-blue);
+    outline-color: var(--color-light-blue);
+}

@@ -95,6 +95,9 @@
     border: 0.0625rem solid var(--color-red);
 }
 
+.input__area_disabled {
+    background-color: var(--color-light-blue);
+}
 
 .input__area_disabled .input__text {
     background-color: var(--color-light-blue);
@@ -102,9 +105,7 @@
     outline-color: var(--color-light-blue);
 }
 
-.input__area_disabled {
-    background-color: var(--color-light-blue);
-}
+
 
 .input__icon-x-disabled {
     justify-content: center;

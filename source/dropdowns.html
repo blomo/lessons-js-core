@@ -6,222 +6,190 @@
     <title>Основы CSS</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/general-styles.css">
+    <link rel="stylesheet" href="../css/buttons-styles.css">
+    <link rel="stylesheet" href="../css/input-styles.css">
     <link rel="stylesheet" href="../css/checkbox-styles.css">
     <link rel="stylesheet" href="../css/dropdowns-styles.css">
 </head>
 <body>
 <div class="dropdowns-wrapper">
-
     <div>
         <ul class="dropdown">
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox"/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Новый</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox"/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Рассчет</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox" checked/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Подтвержден</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox"/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Отложен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox"/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Выполнен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label">
-                            <input class="checkbox__area" type="checkbox"/>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Отменен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="new">
+                        <input class="checkbox__area" id="new" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Новый</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="calculation">
+                        <input class="checkbox__area" id="calculation" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Рассчет</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="confirmed">
+                        <input class="checkbox__area" id="confirmed" type="checkbox" checked/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Подтвержден</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="postponed">
+                        <input class="checkbox__area" id="Postponed" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Отложен</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="completed">
+                        <input class="checkbox__area" id="completed" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Выполнен</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="canceled">
+                        <input class="checkbox__area" id="canceled" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Отменен</span>
+                    </label>
+                </div>
+            </li>
         </ul>
     </div>
 
-
     <div>
         <ul class="dropdown">
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio">
-                            <svg class="checkbox__icon " viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Новый</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio">
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Рассчет</span>
-                        </label>
-
-
-                    </div>
-
-                </li>
-            </button>
-
-            <button class="dropdown__button">
-
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio" checked>
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Подтвержден</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio">
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Отложен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-            <button class="dropdown__button">
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio">
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Выполнен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
-
-            <button class="dropdown__button">
-
-                <li class="dropdown__item">
-                    <div class="checkbox">
-                        <label class="dropdown__label dropdown__label_hidden">
-                            <input class="checkbox__area checkbox__area_hidden" name="single" type="radio">
-                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                            </svg>
-                            <span class="checkbox__text">Отменен</span>
-                        </label>
-                    </div>
-                </li>
-            </button>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_new">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_new" name="single" type="radio">
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Новый</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_calculation">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_calculation" name="single"
+                               type="radio">
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Рассчет</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_confirmed">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_confirmed" name="single"
+                               type="radio" checked>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Подтвержден</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_postponed">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_postponed" name="single"
+                               type="radio">
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Отложен</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_completed">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_completed" name="single"
+                               type="radio">
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Выполнен</span>
+                    </label>
+                </div>
+            </li>
+            <li class="dropdown__item">
+                <div class="checkbox">
+                    <label class="dropdown__label" for="radio_canceled">
+                        <input class="checkbox__area checkbox__area_disabled" id="radio_canceled" name="single"
+                               type="radio">
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Отменен</span>
+                    </label>
+                </div>
+            </li>
         </ul>
     </div>
+
 
     <div class="wrapper-down">
         <div>
-            <div class="dropdown dropdown_number">
-                <div class="dropdown__content">
-                    <span>Номер страницы</span>
-                    <input class="dropdown__input" type="text" placeholder="Введите номер">
+            <div class="dropdown dropdown_size_number">
+                <div class="input">
+                    <label class="input__label" for="input_number">Номер страницы</label>
+                    <input class="input__text" id="input_number" placeholder="Введите номер">
                 </div>
             </div>
-
         </div>
 
-        <div>
-            <div class="dropdown dropdown_select-theme">
-                <div class="dropdown__content">
-                    <span class="dropdown__text">Удалить n записей?</span>
-                    <button class="dropdown__button dropdown__button_select">
-                        <span class="dropdown__button-text">Удалить</span>
-                    </button>
-                    <button class="dropdown__button dropdown__button_select active">
-                        <span class="dropdown__button-text">Отмена</span>
-
-                    </button>
-                </div>
+        <div class="dropdown dropdown_select">
+            <div class="dropdown__content">
+                <span class="dropdown__name">Удалить n записей?</span>
+                <button class="button button_color_blue-text button_size_narrow">
+                    <span class="button__text">Удалить</span>
+                </button>
+                <button class="button button_color_blue-text button_size_narrow button_active">
+                    <span class="button__text">Отмена</span>
+                </button>
             </div>
-
         </div>
 
+
         <div>
-            <div class="dropdown dropdown_select-theme">
+            <div class="dropdown dropdown_select">
                 <div class="dropdown__content">
-                    <span>Выберите тему</span>
-                    <button class="dropdown__button dropdown__button_select">
-                        <svg class="dropdown__icon" viewBox="0 0 16 16"
-                             xmlns="http://www.w3.org/2000/svg">
+                    <span class="dropdown__name">Выберите тему</span>
+                    <button class="button button_color_blue-text button_size_narrow">
+                        <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                             <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
                             <path d="M1 9L0 8L1 7H3V9H1Z" stroke="none"/>
@@ -232,16 +200,15 @@
                             <path d="M3.5 14H2L2 12.5L3.5 11L5 12.5L3.5 14Z" stroke="none"/>
                             <path d="M14 3.5V2L12.5 2L11 3.5L12.5 5L14 3.5Z" stroke="none"/>
                         </svg>
-                        <span class="dropdown__button-text">Светлая</span>
+
+                        <span class="button__text">Светлая</span>
                     </button>
-                    <button class="dropdown__button dropdown__button_select active">
-                        <svg class="dropdown__icon" viewBox="0 0 16 16"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                    d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z"
-                                    stroke="none"/>
+                    <button class="button button_color_blue-text button_size_narrow button_active">
+                        <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z"
+                                  stroke="none"/>
                         </svg>
-                        <span class="dropdown__button-text">Темная</span>
+                        <span class="button__text">Темная</span>
                     </button>
                 </div>
             </div>

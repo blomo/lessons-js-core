@@ -11,11 +11,10 @@
 }
 
 .header__text {
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 1.625rem;
+    line-height: 0.125rem;
     letter-spacing: -0.2px;
     color: var(--color-black);
 }
@@ -30,33 +29,12 @@
     height: 2rem;
 }
 
-.header__button {
-    width: 8.75rem;
-    height: 2rem;
-    padding: 0.5rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    white-space: nowrap;
-    background: none;
-    border: none;
-    color: var(--color-blue);
-}
-
-.header__button:hover + .dropdown_select-theme{
-    display: flex;
-    position: absolute;
-    top: 2.25rem;
-    right: 0;
-}
-
-.header__icon {
+.header > .button > .button__icon {
+    stroke: var(--color-blue);
     fill: var(--color-blue);
-    width: 1rem;
-    height: 1rem;
 }
 
-.header .dropdown_select-theme {
+.header > .dropdown_select {
     display: flex;
     position: absolute;
     top: 2.25rem;

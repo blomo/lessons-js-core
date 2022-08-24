@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 0.25rem;
     width: 22rem;
     height: 12rem;
     border: 0.0625rem dashed var(--color-wrapper-border);
@@ -19,7 +18,7 @@
     height: 2rem;
     padding: 0.25rem 0.25rem 0.25rem 0.5rem;
     box-sizing: border-box;
-    border: 0.0625rem solid var(--color-light-blue);
+    border: 0.0625rem solid var(--color-blue);
     border-radius: 0.25rem;
     background: var(--color-white);
 }
@@ -27,8 +26,8 @@
 .searchbar__icon-search {
     width: 1rem;
     height: 1rem;
-    fill: var(--color-light-blue);
-    stroke: var(--color-light-blue);
+    fill: var(--color-blue);
+    stroke: var(--color-blue);
 }
 
 .searchbar__input {
@@ -65,9 +64,11 @@
     opacity: 1;
 }
 
-.searchbar__button_hidden {
+.searchbar__button_disabled {
     display: none;
 }
 
-
+.searchbar__input {
+    outline: none;
+}
 

@@ -1,0 +1,25 @@
+{
+  "name": "lessons-js-core-from-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blomo/lessons-js-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blomo/lessons-js-core/issues"
+  },
+  "homepage": "https://github.com/blomo/lessons-js-core#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  }
+}

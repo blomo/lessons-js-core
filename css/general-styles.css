@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
 :root {
-    --color-white: #FFFFFF;
-    --color-blue: #459DF5;
-    --color-black: #000000;
-    --color-red: #F53152;
-    --color-light-blue: #BAD8F5;
-    --color-wrapper-border: #8055FF;
+  --color-white: #ffffff;
+  --color-blue: #459df5;
+  --color-black: #000000;
+  --color-red: #f53152;
+  --color-light-blue: #bad8f5;
+  --color-wrapper-border: #8055ff;
 }
 
 body {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.8125rem;
-    line-height: 1rem;
-    color: var(--color-black);
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  color: var(--color-black);
 }

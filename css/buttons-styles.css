@@ -6,7 +6,7 @@
   padding: 0.5rem;
   width: 36rem;
   height: 23.5rem;
-  border: 0.0625rem dashed #8055ff;
+  border: 1px dashed #8055ff;
   border-radius: 5px;
   box-sizing: border-box;
 }

@@ -9,7 +9,7 @@
   align-items: center;
   width: 22rem;
   height: 22.5rem;
-  border: 0.0625rem dashed var(--color-wrapper-border);
+  border: 1px dashed var(--color-wrapper-border);
   border-radius: 0.3125rem;
   box-sizing: border-box;
 }
@@ -37,7 +37,7 @@
   height: 2rem;
   padding: 0.25rem 0.25rem 0.25rem 0.5rem;
   box-sizing: border-box;
-  border: 0.0625rem solid var(--color-blue);
+  border: 1px solid var(--color-blue);
   border-radius: 0.25rem;
   background: var(--color-white);
 }
@@ -91,7 +91,7 @@
 }
 
 .input_incorrect > .input__area {
-  border: 0.0625rem solid var(--color-red);
+  border: 1px solid var(--color-red);
 }
 
 .input__area_disabled {

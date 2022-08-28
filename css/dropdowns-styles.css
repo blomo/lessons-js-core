@@ -76,7 +76,7 @@
   height: 2rem;
   box-sizing: border-box;
   background: var(--color-white);
-  border: 0.0625rem solid var(--color-blue);
+  border: 1px solid var(--color-blue);
   border-radius: 0.25rem;
   padding: 0.25rem 0.25rem 0.25rem 0.5rem;
 }

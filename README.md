@@ -3,6 +3,7 @@
 **[figma](https://www.figma.com/file/uvOH3bGfmJ6rfvgOnQy4RC/SBER-%E2%80%93-%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0-JS?node-id=6%3A16)**
 
 # command Node.js
+
 ```
 1. node -v # версия
 2. node <pathToJS> # запуск JS скрипта
@@ -22,10 +23,13 @@ npx - execute npm package binaries
 ./node_modules/.bin/<package>
 
 ### before run project install all package
+
 ```
 npm install
 ```
+
 # steps:
+
 ```
 1. Prettier — это средство для форматирования кода, которое нацелено на использование жёстко заданных правил по оформлению программ.
    https://prettier.io/docs/en/install.html
